@@ -15,6 +15,8 @@
 #define X_SAVE  &kp CMD(S)
 #define X_ALL   &kp CMD(A)
 
+#define X_SWAP  &kp LA(TAB)
+
 /**
  * Arsenik Symbols:
  *   ^<>$% @&*'`
