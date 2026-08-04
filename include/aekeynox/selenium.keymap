@@ -75,9 +75,9 @@
     vim_nav_layer: vim_nav_layer {
       display-name = "VimNav";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  &none    X_CTL_W  &vim_prev &vim_next &none     ,   &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp DEL ,  &trans ,
+        &trans  ,  &none    X_CTL_W  &vim_prev &vim_next X_NEXTW   ,   &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp DEL ,  &trans ,
         &trans  ,  X_ALL    X_SHTAB  X_SAVE    &kp TAB   X_SWAP    ,   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &none   ,  &trans ,
-        &trans  ,  X_UNDO   X_CUT    X_COPY    X_PASTE   X_REDO    ,   X_MSC_L  X_MSC_D   X_MSC_U   X_MSC_R   &none   ,  &trans ,
+        &trans  ,  X_UNDO   X_CUT    X_COPY    X_PASTE   X_PREVW   ,   X_MSC_L  X_MSC_D   X_MSC_U   X_MSC_R   X_REDO  ,  &trans ,
             &kp CAPS , &sc FN_MEDIA_LAYER DEL , &mo NUM_ROW_LAYER  ,   &trans ,  &mo FN_MEDIA_LAYER , &EZ_LSK(RALT)
       )>;
     };

@@ -16,6 +16,8 @@
 #define X_ALL   &kp CMD(A)
 
 #define X_SWAP  &kp LA(TAB)
+#define X_NEXTW &kp LC(RIGHT)
+#define X_PREVW &kp LC(LEFT)
 
 /**
  * Arsenik Symbols:
