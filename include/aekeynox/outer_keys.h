@@ -1,7 +1,7 @@
 // By default, use non-alpha keys on outer columns
 #ifndef USE_ALPHA_ON_OUTER_KEYS
-  #define LTOP  TAB
-  #define LHOME ESCAPE
+  #define LTOP  DEL
+  #define LHOME F5
   #define RTOP  BACKSPACE
   #define RHOME ENTER
 
